@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #A8763E;
+    
+}
+header{
+    margin: 0;
+    background-color: #A8763E;
+    text-align: center;
+    height: 15vh;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    box-sizing: border-box;
+    padding: 20px 0;
+
+}
+
+header > p{
+
+    font-size: 30px;
+}
+nav{
+    background-color: #A8763E;
+    text-align: center;
+    height: 8vh;
+    margin: auto;
+}
+header,nav{
+    text-align: center;
+   box-sizing: border-box;
+}
+
+nav >ol{
+    
+    list-style: none;
+    margin: auto;
+    margin: auto;
+    margin-top: 0;
+height: 100%;
+text-align: center;
+  
+}
+nav >ol >li{
+    padding: 5px;
+    border-radius: 8px;
+    text-align: center;
+    margin-right: 10em;
+    border: 1px solid white;
+    transition-property: background-color;
+    transition-duration: 1s;
+    display: inline-block;
+    
+}
+
+nav >ol >li:hover{
+    background-color: white;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+
+nav >ol >li:hover a{
+    transition-property: color;
+    transition-duration: 1s;
+    color: rgb(60, 60, 212);
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px;
+    font-size: 1.5em;
+    color: white;
+    
+}
+aside{
+
+    background-color: rgb(109, 106, 106);
+
+    width: 15%;
+}
+main{
+    background-color: #A8763E;
+    width: 70%;
+    height: 70vh;
+    float: left;
+
+}
+aside{
+    height: 70vh;
+    float: left;
+}
+footer{
+    background-color: darkgoldenrod ;
+    display: inline-block;
+    width: 100%;
+    height: 30vh;
+}
+.footerol{
+    list-style: none;
+    margin-left: 20%;   
+}
+.footerol1{
+    margin-left: 20%;
+}
+.footerol,.footerol1,.footerol2{
+    display: inline-block;
+    list-style: none;
+}
+.footerol,.footerol1 >li{
+    font-size: 20px;
+    
+
+}
+footer >p{
+    text-align: center;
+}
+
+
+.productdiv{
+    padding-left: 50px;
+    border: solid 5px gray;
+    border-radius: 20px;
+    width: 10em;
+    height: 30vh;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.productdiv >img{
+    padding-top: 20px;
+}
+.productdiv >p{
+    padding-top: 15px;
+    padding-left: 10px;
+    font-size: 25px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.setdiv{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 40px;
+    width: 200px;
+    border-radius: 10px;
+}
+.setdiv >p{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.footerol2{
+    margin-left:20%;
+    display: inline-block;
+}
+.footerol2 > li{
+    display: inline-block;
+}
+
+.footerol2 >li >img:hover{
+    
+    transition-duration: 1s;
+    transform: translateY(0) scale(1.6);
+
+}
+
+main >div >.productdiv:hover{
+    transition-duration: 0.6s;
+    color: red;
+    transform: scale(1.1);
+    filter: blur(5);
+    opacity:1;
+}
+aside >div >.setdiv:hover{
+    transition-duration: 0.6s;
+    transform: scale(1.3);
+    filter: blur(5);
+    opacity:1;
+    background-color: rgb(65, 63, 63);
+}
+
